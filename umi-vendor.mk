@@ -1328,29 +1328,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    libfastcvopt \
-    libthermalclient \
-    CneApp \
-    IWlanService \
-    SoterService \
-    TimeService \
-    com.qualcomm.qti.gpudrivers.kona.api30 \
-    PowerOffAlarm \
-    QtiTelephony \
-    QtiTelephonyService \
     dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    tcmclient \
     audiosphere \
-    com.qti.dpmframework \
-    dpmapi \
-    qcrilhook \
     qti-telephony-common \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti-hta \
-    android.hardware.neuralnetworks@1.3-service-qti \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.xiaomi.hardware.mlipay \
-    vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.limits@1.0-service
